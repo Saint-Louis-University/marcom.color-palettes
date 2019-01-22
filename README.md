@@ -18,19 +18,19 @@ None
 
 Either add this in header of your html files:
 
-```xml
-<script src=""></script>
+``html
+<script src="https://saint-louis-university.github.io/marcom.color-palettes/edu.slu.marcom.color-palettes.css"></script>
 ```
 
 Or add this to one of your existing css files:
 
-```
-@import("");
+```css
+@import("https://saint-louis-university.github.io/marcom.color-palettes/edu.slu.marcom.color-palettes.css");
 ```
 
 Then you can use the colors like:
 
-```
+```css
 body {background-color: var(--slu-blue);}
 ```
 
