@@ -1,0 +1,14 @@
+:root {
+	/* primary color palette */
+	--slu-blue: #003da5;
+	--iris-white: #ffffff;
+	--college-church-grey: #c8c9c7;
+	
+	/* secondary color palette */
+	--fountain-blue: #5bc2e7;
+	--grand-blue: #003b5c;
+	--billiken-bronze: #795d3e;
+	--gateway-gold: #ffc72c;
+	--rooftop-teal: #8fd6bd;
+	--oriflamme-orange: #ed8b00;
+}
