@@ -18,7 +18,7 @@ None
 
 Either add this in header of your html files:
 
-``html
+```html
 <script src="https://saint-louis-university.github.io/marcom.color-palettes/edu.slu.marcom.color-palettes.css"></script>
 ```
 
