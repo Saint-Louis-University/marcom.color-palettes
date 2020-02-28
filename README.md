@@ -39,7 +39,7 @@ body {background-color: var(--slu-blue);}
 
 ### TeX
 
-Download the `slu-color-palettes.sty` file to your working directory. Then add this in the header of your TeX file:
+Download the [slu-color-palettes.sty](https://saint-louis-university.github.io/marcom.color-palettes/slu-color-palettes.sty) file to your working directory. Then add this in the header of your TeX file:
 
 ```TeX
 \usepackage{slu-color-palettes}
