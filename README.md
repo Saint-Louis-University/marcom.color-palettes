@@ -1,14 +1,15 @@
 # marcom.color-palettes
 
-Cascading style sheet defining SLU colors as CSS variables
+Files defining SLU colors for web (.css) and TeX (.sty)
 
 **Goal** 
 
-To provide a reusable cascading style sheet to define official SLU colors as CSS variables
+To provide reusable files to define official SLU colors for web and TeX
 
 **Technology Overview**
 
 * [CSS Variables](https://www.w3schools.com/css/css3_variables.asp)
+* [Package xcolor](https://ctan.org/pkg/xcolor?lang=en)
 
 **Prerequisites**
 
@@ -16,7 +17,9 @@ None
 
 ## Getting Started
 
-Either add this in header of your html files:
+### Web
+
+Either add this in the header of your html files:
 
 ```html
 <script src="https://saint-louis-university.github.io/marcom.color-palettes/edu.slu.marcom.color-palettes.css"></script>
@@ -32,6 +35,20 @@ Then you can use the colors like:
 
 ```css
 body {background-color: var(--slu-blue);}
+```
+
+### TeX
+
+Download the `slu-color-palettes.sty` file to your working directory. Then add this in the header of your TeX file:
+
+```TeX
+\usepackage{slu-color-palettes}
+```
+
+Then you can use the colors like:
+
+```TeX
+\textcolor{slu-blue}{Lorem ipsum}
 ```
 
 ## Resources
